@@ -1,0 +1,15 @@
+.see-more {
+    width: 100px;
+    height: 30px;
+    background-color: #5BBAFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    align-self: center;
+    margin-top: 57px;
+}
+
+.see-more:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}

@@ -1,0 +1,32 @@
+.nav {
+    width: 160px;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav button {
+    background-color: #B1A5FF;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.nav button:hover {
+    box-shadow: 0 0 8px white;
+    cursor: pointer;
+}
+
+
+.nav > .selected {
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+}
+
+.nav > .selected:hover {
+    box-shadow: none;
+    cursor: auto;
+}
